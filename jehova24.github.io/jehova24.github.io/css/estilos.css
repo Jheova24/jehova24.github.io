@@ -1,0 +1,135 @@
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  font-weight: normal;
+ }
+ table { border-collapse: collapse; border-spacing: 0; }
+ td, th, caption { font-weight: normal; text-align: left; }
+ img, fieldset { border: 0; }
+ ol { padding-left: 1.4em; list-style: decimal; }
+ ul { padding-left: 1.4em; list-style:square; }
+ q:before, q:after { content:''; }
+
+/* Final del css reserte*/
+
+body {
+  font-family: 'Mi fuente';
+  font-size: 100.4%;
+  background-color: darkolivegreen;
+}
+#principal{
+  width: 500px;
+  /*background-color: rgb(11, 220, 60);*/
+  text-align: center;
+  margin: 25px auto;
+  padding: 20px;
+  border: 6px solid darkred;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  box-shadow: rgba(159, 126, 77, 0.808) 10px 10px 10px;
+  background: -moz-linear-gradient(top, rgb(221, 0, 255), rgb(0, 157, 255));
+  background: -webkit-linear-gradient (top, rgb(221, 0, 255), rgb(0, 157, 255));
+  background: -o-linear-gradient (top, rgb(221, 0, 255), rgb(0, 157, 255));
+  background: -ms-linear-gradient (top, rgb(221, 0, 255), rgb(0, 157, 255));
+ -moz-transition:-moz-transform (1s ease 0.5s);
+ -webkit-transition: -webkit-transform (1s ease 0.5s);
+ -o-transition: -o-trasform (1s ease 0.5s);
+ -ms-transtion: -ms-transform (1s ease 00.5s);
+
+}
+#principal:hover{
+  -moz-transform: rotate(8deg);
+  -webkit-transform: rotate(8deg);
+  -o-transform: rotate(8deg);
+  -ms-transform: rotate(8deg);
+ 
+}
+
+#titulo{
+  font-family: 'Mi fuente';
+font-size: 37px;
+text-shadow: darkblue 3px 3px 5px;
+color: rgba(red, green, blue, 0.5);
+
+}
+
+h2{
+  font: normal 2.4em 'Mi fuente', Verdana, Geneva, sans-serif;
+  background: -moz-linear-gradient(top, darkblue, darkred);
+  background: -webkit-linear-gradient(top, darkblue, darkred);
+  background: -o-linear-gradient(top, darkblue, darkred);
+  background: -ms-linear-gradient(top, darkblue, darkred);
+  color: aliceblue;
+  width: 35%;
+  border-radius: 12px;
+  text-align: center;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+  margin: 20px auto;
+  padding: 20px;
+  box-shadow: rgb(222, 150, 6) 5px 5px 10px;
+  text-shadow: rgb(255, 213, 0) 5px 5px 8px;
+}
+h3{
+  font:bold 1.9em 'Mi fuente', Verdana, Geneva, sans-serif;
+  margin: 20px;
+  padding: 5px 0 5px 10px;
+  color: brown;
+  text-align: center;
+  
+
+
+}
+section {
+  width: 91%;
+  border-top: 2px dashed black;
+  margin: auto;
+
+}
+
+figure{
+  float: left;
+}
+figure img{
+  padding: 8px;
+  background:darkorchid;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  -moz-transition: -moz-transform 0.3s ease-in-out 0.1s;
+  -webkit-transition: -webkit-trasform 0.3s ease-in-out 0.1s;
+  -o-transition: -o-tranform 0.3s ease-in-out 0.1s;
+  -ms-transittion: -ms-transform 00.3s ease-in-out 0.1s;
+  box-shadow: darkred 5px 5px 8px;
+}
+  
+figure img:hover{
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+}   
+
+figcaption{
+  font-family: 'Mi fuente', Arial, Helvetica, sans-serif;
+  font-size: 1.4em;
+  text-align: center;
+  margin-top: 5px;
+}
+footer{ 
+  clear: both;
+  padding-top: 5px;
+}
+footer p{
+  font: 1.6em Georgia, 'Times New Roman', Times, serif;
+  color: black;
+  margin: 10px 8px;
+}
